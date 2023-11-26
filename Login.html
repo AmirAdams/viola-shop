@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <style>
+        .googlebuttton {
+            width: 12px;
+        }
+        body {
+            background: grey;
+        }
+        h1 {
+            text-align: center;
+            font: 'lobster';
+            color: black;
+        }
+        .container {
+            text-align: center;
+            margin: 0 auto; 
+            border-radius: 15px;
+        }
+        .user-info-form {
+            background-color: aliceblue;
+            width: 200px;
+            margin: auto;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            border: 4px solid;
+            text-align: center;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.705);
+            border-radius: 15px;
+        }
+        .input-field-container {
+            margin: 6px;
+            padding: 6px;
+            border-radius: 3px;
+            font: 'lobster';
+        }
+        .user-info-input {
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.705);
+            border-radius: 3px;
+            padding: 5px;
+        }
+        .user-info-button {
+
+        }
+        .submit-button {
+            border-radius: 15px;
+            background: #000000;
+            color: white;
+            width: 150px;
+            height: 35px;
+        }
+      
+    </style>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+</header>
+<body>
+    <header></header>
+    <br>
+    <br>
+    <div class="container">
+        <form class="user-info-form">
+            <h1>Log into your account</h1>
+        <div class="input-field-container">
+                <input class="user-info-input" type="text" name="Viola" placeholder="Email Address" required>
+            </div>
+            <div class="input-field-container">
+                <input class="user-info-input" type="text" name="Viola" placeholder="Password" required>
+            </div>
+
+            <div class="input-field-container">
+                <input class="user-info-input" type="text" name="Viola" placeholder="Username" required>
+            </div>
+            <br>
+            <div class="user-info-button">
+                <button class="submit-button" type="submit">Submit</button>
+            </div>
+            <br>
+            <br>
+            <button id="googlebuttton">
+        <div id="g_id_onload"
+            data-client_id="YOUR_GOOGLE_CLIENT_ID"
+            data-login_uri="https://your.domain/your_login_endpoint"
+            data-auto_prompt="false">
+        </div>
+        <div class="g_id_signin"
+            data-type="standard"
+            data-size="large"
+            data-theme="outline"
+            data-text="sign_in_with"
+            data-shape="rectangular"
+            data-logo_alignment="left">
+        </div>
+    </button>
+    <p><a href="signup.html">Sign in</a></p>
+    <p><a href="index.html">Main page</a></p>
+        </for
+        m>
+    </div>
+</body>
